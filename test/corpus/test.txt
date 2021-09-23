@@ -1,0 +1,33 @@
+=============
+General Test
+=============
+
+opening_comment
+
+[TEST:BODY_1PART] comment here
+	[MULTIPLE:string:123:LARGE]
+	[SINGLE_TEST]
+
+---
+
+(source_file
+	(comment)
+	(bracket_statement
+		(parameter_list
+			(declaration)
+			(separator)
+			(large)))
+	(comment)
+	(comment)
+	(bracket_statement
+		(parameter_list
+			(declaration)
+			(separator)
+			(string)
+			(separator)
+			(number)
+			(separator)
+			(large)))
+	(bracket_statement
+		(parameter_list
+			(declaration))))
