@@ -12,10 +12,7 @@ A simple language parser and highlighter made with [tree-sitter](https://github.
 
 # Using with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
-Please refer to the [adding parsers](https://github.com/nvim-treesitter/nvim-treesitter#advanced-setup) section on the nvim-treesitter page.
-
-In order for syntax highlighting to work you copy `queries/highlights.scm` file from this repo to your nvim-treesitter location `queries/dfraw/highlights.scm`.
-More information can be found on the nvim-treesitter page.
+Please refer to the [adding parsers](https://github.com/nvim-treesitter/nvim-treesitter#advanced-setup) section on the nvim-treesitter page for more information.
 
 Example config:
 ```lua
@@ -31,7 +28,10 @@ parser_config.dfraw = {
 }
 ```
 Wrap in `lua << EOF` and `EOF` to use in `init.vim`.
-Then run `:TSInstall dfraw`.
+Then run `:TSInstall dfraw` to install the parser.
+
+In order for syntax highlighting to work you copy `queries/highlights.scm` file from this repo to your nvim-treesitter location `queries/dfraw/highlights.scm`.
+More information can be found on the nvim-treesitter page.
 
 By default it is setup to start for any file of type 'text' or 'dfraw'. If you would not like to use it for all text files you can add a custom filetype to neovim.
 Example `.config/nvim/scripts.vim`:
