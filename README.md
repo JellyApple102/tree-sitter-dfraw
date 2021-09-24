@@ -27,7 +27,7 @@ parser_config.dfraw = {
 	used_by = { 'dfraw' }
 }
 ```
-Wrap in `lua << EOF` and `EOF` to use in `init.vim`.
+Wrap in `lua << EOF` and `EOF` to use in `init.vim`.\
 Then run `:TSInstall dfraw` to install the parser.
 
 In order for syntax highlighting to work you copy `queries/highlights.scm` file from this repo to your nvim-treesitter location `queries/dfraw/highlights.scm`.
