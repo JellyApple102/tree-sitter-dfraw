@@ -7,7 +7,7 @@ opening_comment
 [TEST:BODY_1PART] comment here
 	[MULTIPLE:string:123:LARGE]
 	[SINGLE_TEST]
-	[HERE:A string, contating lot's of diffent-punctuation.]
+	[HERE:A string, contating=lot's of diffent-punctuation.]
 
 ---
 

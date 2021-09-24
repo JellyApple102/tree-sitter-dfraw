@@ -121,7 +121,7 @@
     },
     "string": {
       "type": "PATTERN",
-      "value": "[A-Za-z \\-,.'/\\\\]+"
+      "value": "[A-Za-z \\-,.'/\\\\=]+"
     },
     "separator": {
       "type": "PATTERN",
