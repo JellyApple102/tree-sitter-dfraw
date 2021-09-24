@@ -36,7 +36,7 @@ module.exports = grammar({
 
 		large: $ => /[A-Z_\d]+/,
 
-		string: $ => /[A-Za-z ]+/,
+		string: $ => /[A-Za-z \-,.']+/,
 
 		separator: $ => /:/,
 
