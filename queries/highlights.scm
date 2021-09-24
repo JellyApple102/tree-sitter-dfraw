@@ -1,5 +1,5 @@
 (comment) @comment
 (string) @string
 (number) @number
-(declaration) @constant
+(declaration) @statement
 (large) @identifier
