@@ -31,6 +31,7 @@ parser_config.dfraw = {
 }
 ```
 Wrap in `lua << EOF` and `EOF` to use in `init.vim`.
+Then run `:TSInstall dfraw`.
 
 By default it is setup to start for any file of type 'text' or 'dfraw'. If you would not like to use it for all text files you can add a custom filetype to neovim.
 Example `.config/nvim/scripts.vim`:
