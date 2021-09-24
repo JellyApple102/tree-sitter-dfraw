@@ -2,6 +2,14 @@
 
 A simple language parser and highlighter made with [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
+[tokyonight](https://github.com/folke/tokyonight.nvim)
+![tokyonight one](images/tokyonight1.png)
+![tokyonight two](images/tokyonight2.png)
+
+[nightfly](https://github.com/bluz71/vim-nightfly-guicolors)
+![nightfly one](images/nightfly1.png)
+![nightfly two](images/nightfly2.png)
+
 # Using with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 Please refer to the [adding parsers](https://github.com/nvim-treesitter/nvim-treesitter#advanced-setup) section on the nvim-treesitter page.
@@ -38,3 +46,8 @@ This will match any file whose first line is just lowercase letters_and_undersco
 Than change the config option `filetype = 'dfraw'` and remove the `used_by` option to only use 'dfraw' type files.
 
 More information on custom filetypes [here](https://neovim.io/doc/user/filetype.html#new-filetype).
+
+# Highlight Colors
+
+Feel free to change the highlight groups set by `highlights.scm`. I have found that some colors schemes use the same or similar colors for different groups.
+I have set them to what I like best using the [tokyonight](https://github.com/folke/tokyonight.nvim) theme.
