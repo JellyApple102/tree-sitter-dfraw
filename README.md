@@ -52,3 +52,5 @@ More information on custom filetypes [here](https://neovim.io/doc/user/filetype.
 
 Feel free to change the highlight groups set by `highlights.scm`. I have found that some colors schemes use the same or similar colors for different groups.
 I have set them to what I like best using the [tokyonight](https://github.com/folke/tokyonight.nvim) theme.
+
+Use `:highlight` to view your current highlight groups and colors.
