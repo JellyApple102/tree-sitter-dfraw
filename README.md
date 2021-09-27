@@ -54,3 +54,8 @@ Feel free to change the highlight groups set by `highlights.scm`. I have found t
 I have set them to what I like best using the [tokyonight](https://github.com/folke/tokyonight.nvim) theme.
 
 Use `:highlight` to view your current highlight groups and colors.
+
+---
+
+This project exists on both [GitHub](https://github.com/JellyApple102/tree-sitter-dfraw) and [GitLab](https://gitlab.com/JellyApple102/tree-sitter-dfraw).
+This is done to keep this project close to the other Dwarf Fortress modding tools, which are on GitLab.
