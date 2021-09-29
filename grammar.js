@@ -32,9 +32,9 @@ module.exports = grammar({
 
 		declaration: $ => /[A-Z_0-9]+/,
 
-		number: $ => token(prec(1, /-?[0-9]+/)),
+		number: $ => /-?[0-9]+/,
 
-		reference: $ => /!?[A-Z_0-9]+/,
+		reference: $ => /(?:VOLUME_mB)|(?:!?[0-9]*[A-Z][A-Z_0-9]*)/,
 
 		string: $ => /[A-Za-z \-,.'/\\=0-9]+/,
 

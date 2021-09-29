@@ -105,19 +105,12 @@
       "value": "[A-Z_0-9]+"
     },
     "number": {
-      "type": "TOKEN",
-      "content": {
-        "type": "PREC",
-        "value": 1,
-        "content": {
-          "type": "PATTERN",
-          "value": "-?[0-9]+"
-        }
-      }
+      "type": "PATTERN",
+      "value": "-?[0-9]+"
     },
     "reference": {
       "type": "PATTERN",
-      "value": "!?[A-Z_0-9]+"
+      "value": "(?:VOLUME_mB)|(?:!?[0-9]*[A-Z][A-Z_0-9]*)"
     },
     "string": {
       "type": "PATTERN",
