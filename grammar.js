@@ -26,17 +26,17 @@ module.exports = grammar({
 
 		_parameter: $ => choice(
 			$.number,
-			$.large,
+			$.reference,
 			$.string,
 		),
 
-		declaration: $ => /[A-Z_\d]+/,
+		declaration: $ => /[A-Z_0-9]+/,
 
-		number: $ => token(prec(1, /\d+/)),
+		number: $ => token(prec(1, /-?[0-9]+/)),
 
-		large: $ => /[A-Z_\d]+/,
+		reference: $ => /!?[A-Z_0-9]+/,
 
-		string: $ => /[A-Za-z \-,.'/\\=]+/,
+		string: $ => /[A-Za-z \-,.'/\\=0-9]+/,
 
 		separator: $ => /:/,
 

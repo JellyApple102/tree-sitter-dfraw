@@ -2,4 +2,4 @@
 (string) @string
 (number) @type
 (declaration) @statement
-(large) @constant
+(reference) @constant

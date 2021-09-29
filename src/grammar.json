@@ -92,7 +92,7 @@
         },
         {
           "type": "SYMBOL",
-          "name": "large"
+          "name": "reference"
         },
         {
           "type": "SYMBOL",
@@ -102,7 +102,7 @@
     },
     "declaration": {
       "type": "PATTERN",
-      "value": "[A-Z_\\d]+"
+      "value": "[A-Z_0-9]+"
     },
     "number": {
       "type": "TOKEN",
@@ -111,17 +111,17 @@
         "value": 1,
         "content": {
           "type": "PATTERN",
-          "value": "\\d+"
+          "value": "-?[0-9]+"
         }
       }
     },
-    "large": {
+    "reference": {
       "type": "PATTERN",
-      "value": "[A-Z_\\d]+"
+      "value": "!?[A-Z_0-9]+"
     },
     "string": {
       "type": "PATTERN",
-      "value": "[A-Za-z \\-,.'/\\\\=]+"
+      "value": "[A-Za-z \\-,.'/\\\\=0-9]+"
     },
     "separator": {
       "type": "PATTERN",

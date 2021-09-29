@@ -5,9 +5,10 @@ General Test
 opening_comment
 
 [TEST:BODY_1PART] comment here
-	[MULTIPLE:string:123:LARGE]
+	[MULTIPLE:string:123:LARGE:-45]
 	[SINGLE_TEST]
-	[HERE:A string, contating=lot's of diffent-punctuation.]
+	[HERE:A string, contating=lot's of diffent-punctuation and numbers 123 -456.]
+	[TEST:!MARK_TEST]
 
 ---
 
@@ -17,7 +18,7 @@ opening_comment
 		(parameter_list
 			(declaration)
 			(separator)
-			(large)))
+			(reference)))
 	(comment)
 	(comment)
 	(bracket_statement
@@ -28,7 +29,9 @@ opening_comment
 			(separator)
 			(number)
 			(separator)
-			(large)))
+			(reference)
+			(separator)
+			(number)))
 	(bracket_statement
 		(parameter_list
 			(declaration)))
@@ -36,4 +39,9 @@ opening_comment
 		(parameter_list
 			(declaration)
 			(separator)
-			(string))))
+			(string)))
+	(bracket_statement
+		(parameter_list
+			(declaration)
+			(separator)
+			(reference))))

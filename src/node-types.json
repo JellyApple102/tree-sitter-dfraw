@@ -15,16 +15,6 @@
     }
   },
   {
-    "type": "declaration",
-    "named": true,
-    "fields": {}
-  },
-  {
-    "type": "large",
-    "named": true,
-    "fields": {}
-  },
-  {
     "type": "parameter_list",
     "named": true,
     "fields": {},
@@ -37,11 +27,11 @@
           "named": true
         },
         {
-          "type": "large",
+          "type": "number",
           "named": true
         },
         {
-          "type": "number",
+          "type": "reference",
           "named": true
         },
         {
@@ -87,7 +77,15 @@
     "named": true
   },
   {
+    "type": "declaration",
+    "named": true
+  },
+  {
     "type": "number",
+    "named": true
+  },
+  {
+    "type": "reference",
     "named": true
   },
   {
