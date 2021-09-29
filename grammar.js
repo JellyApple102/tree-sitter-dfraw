@@ -30,7 +30,8 @@ module.exports = grammar({
 			$.string,
 		),
 
-		declaration: $ => /[A-Z_0-9]+/,
+		// same as `reference`, different rule to give it different highlighting group
+		declaration: $ => /(?:VOLUME_mB)|(?:!?[0-9]*[A-Z][A-Z_0-9]*)/,
 
 		number: $ => /-?[0-9]+/,
 

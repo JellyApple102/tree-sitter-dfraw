@@ -15,6 +15,11 @@
     }
   },
   {
+    "type": "declaration",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "parameter_list",
     "named": true,
     "fields": {},
@@ -44,6 +49,11 @@
         }
       ]
     }
+  },
+  {
+    "type": "reference",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "source_file",
@@ -77,15 +87,7 @@
     "named": true
   },
   {
-    "type": "declaration",
-    "named": true
-  },
-  {
     "type": "number",
-    "named": true
-  },
-  {
-    "type": "reference",
     "named": true
   },
   {

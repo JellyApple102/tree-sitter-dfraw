@@ -102,7 +102,7 @@
     },
     "declaration": {
       "type": "PATTERN",
-      "value": "[A-Z_0-9]+"
+      "value": "(?:VOLUME_mB)|(?:!?[0-9]*[A-Z][A-Z_0-9]*)"
     },
     "number": {
       "type": "PATTERN",
